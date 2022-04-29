@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Parking area display</string>
+    <string name="fresh_to_home" />
+    <string name="date">dATe</string>
+    <string name="todo">todo</string>
+    <string name="Fresh_to_home">Fresh To Home</string>
 </resources>

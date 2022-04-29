@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergency_stop"
+    android:background="@drawable/bg1">
+
+    <TextView
+        android:layout_width="363dp"
+        android:layout_height="63dp"
+        android:text="Obstacle Emergency Stop!"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="215dp"
+        android:layout_height="52dp"
+        android:text="@string/Fresh_to_home"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="211dp"
+        android:layout_height="239dp"
+        app:srcCompat="@drawable/emgncy"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="246dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
