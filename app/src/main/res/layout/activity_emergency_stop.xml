@@ -7,7 +7,9 @@
     tools:context=".Emergency_stop"
     android:background="@drawable/bg1">
 
+
     <TextView
+
         android:layout_width="363dp"
         android:layout_height="63dp"
         android:text="Obstacle Emergency Stop!"
@@ -42,4 +44,4 @@
         tools:ignore="ContentDescription,MissingConstraints" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
