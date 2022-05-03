@@ -10,5 +10,6 @@
     <string name="st4">Door Open</string>
     <string name="st5">Door close</string>
     <string name="str6">Search address here</string>
+    <string name="go">Go</string>
 
 </resources>
