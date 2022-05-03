@@ -4,4 +4,11 @@
     <string name="date">dATe</string>
     <string name="todo">todo</string>
     <string name="Fresh_to_home">Fresh To Home</string>
+    <string name="st1">Fresh to Home</string>
+    <string name="st2">GO</string>
+    <string name="str3">Date</string>
+    <string name="st4">Door Open</string>
+    <string name="st5">Door close</string>
+    <string name="str6">Search address here</string>
+
 </resources>
