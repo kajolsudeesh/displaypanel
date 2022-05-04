@@ -9,24 +9,29 @@
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/searchView"
-        android:layout_width="384dp"
-        android:layout_height="33dp"
+        android:layout_width="317dp"
+        android:layout_height="43dp"
         android:iconifiedByDefault="false"
         android:queryHint="@string/str6"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="254dp" />
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="298dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="229dp"
-        android:layout_height="42dp"
+        android:layout_width="243dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="148dp"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="@string/st1"
-        android:textSize="32sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="186dp" />
+        android:text="Fresh to Home"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Switch
         android:id="@+id/switch1"
@@ -35,17 +40,18 @@
         android:minHeight="60dp"
         android:text=""
         tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="406dp" />
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="409dp" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="136dp"
+        android:layout_height="56dp"
         android:text="@string/st2"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="543dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="535dp" />
+
 
     <TextView
         android:id="@+id/date"
@@ -53,30 +59,33 @@
         android:layout_height="31dp"
         android:text="@string/str3"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="36dp"
-        tools:ignore="MissingConstraints" />
-
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="33dp" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="128dp"
+        android:layout_height="35dp"
         android:text="@string/st4"
+        android:textColor="@color/black"
         android:textSize="24sp"
+        android:textStyle="italic"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="419dp" />
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="415dp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="131dp"
+        android:layout_height="43dp"
         android:text="@string/st5"
+        android:textColor="@color/black"
         android:textSize="24sp"
+        android:textStyle="italic"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="240dp"
-        tools:layout_editor_absoluteY="419dp" />
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="415dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

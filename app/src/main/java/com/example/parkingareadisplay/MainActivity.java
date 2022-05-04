@@ -17,7 +17,7 @@ private Button button;
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, route.class);
+                Intent intent = new Intent(MainActivity.this, loadingarea.class);
                 startActivity(intent);
             }
         });        
