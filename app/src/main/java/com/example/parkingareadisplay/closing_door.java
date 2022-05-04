@@ -14,7 +14,7 @@ public class closing_door extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_closing_door);
 
-        Done = findViewById(R.id.Done);
+        Done = findViewById(R.id.button);
         Done.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
