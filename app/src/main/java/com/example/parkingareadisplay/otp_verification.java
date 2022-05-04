@@ -13,7 +13,7 @@ public class otp_verification extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_otp_verification);
-        opendoor =findViewById(R.id.open_door);
+        opendoor =findViewById(R.id.opendoor);
         opendoor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
