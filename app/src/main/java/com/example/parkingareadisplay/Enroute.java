@@ -16,6 +16,7 @@ import java.util.Date;
 
 class Enroute extends AppCompatActivity {
     @TargetApi(Build.VERSION_CODES.O)
+    private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,44 +25,18 @@ class Enroute extends AppCompatActivity {
         @SuppressLint("SimpleDateFormat") SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd G 'at' HH:mm:ss z");
         String currentDataTime = sdf.format(new Date());
         textView.setText(currentDataTime);
-    }
 
-    private Button button3;
-
-    {
-        setContentView(R.layout.activity_enroute);
-        button3 = findViewById(R.id.button3);
-        button3.setOnClickListener(new View.OnClickListener() {
+        button = findViewById(R.id.button3);
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Enroute.this, Emergency_stop.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(Enroute.this,Emergency_stop.class);
+                startActivity(intent1);
             }
         });
+
     }
 
 
-    {
-        setContentView(R.layout.activity_enroute);
-        button3 = findViewById(R.id.button3);
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Enroute.this, otp_verification.class);
-                startActivity(intent);
-            }
-        });
-    }
 
-    {
-        setContentView(R.layout.activity_enroute);
-        button3 = findViewById(R.id.button3);
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Enroute.this, MainActivity.class);
-                startActivity(intent);
-            }
-        });
-    }
 }

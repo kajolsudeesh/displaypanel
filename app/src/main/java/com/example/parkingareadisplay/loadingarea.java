@@ -13,7 +13,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class loadingarea extends AppCompatActivity {
-
+    private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,16 +22,14 @@ public class loadingarea extends AppCompatActivity {
         @SuppressLint("SimpleDateFormat") SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd G 'at' HH:mm:ss z");
         String currentDataTime = sdf.format(new Date());
         textView.setText(currentDataTime);
-    }
-    private Button button;
 
-    {
+
         setContentView(R.layout.activity_loadingarea);
         button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(loadingarea.this, Enroute.class);
+                Intent intent = new Intent(loadingarea.this,loading_items .class);
                 startActivity(intent);
             }
         });
