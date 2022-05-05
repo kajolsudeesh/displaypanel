@@ -17,7 +17,7 @@ public class achnowledge_page extends AppCompatActivity {
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(achnowledge_page.this, Enroute.class);
+                Intent intent = new Intent(achnowledge_page.this, enroute.class);
                 startActivity(intent);
             }
         });
