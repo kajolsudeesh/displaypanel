@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Parking area display</string>
     <string name="fresh_to_home" />
     <string name="date">dATe</string>
@@ -11,5 +11,9 @@
     <string name="st5">Door close</string>
     <string name="str6">Search address here</string>
     <string name="go">Go</string>
+    <string name="next" tools:ignore="DuplicateDefinition">next</string>
+    <string name="nex">next..</string>
+    <string name="thanks_for_ordering">Thanks for ordering!</string>
+
 
 </resources>

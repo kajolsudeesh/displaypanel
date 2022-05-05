@@ -12,7 +12,7 @@
     android:layout_height="wrap_content"
     android:text="Fresh to Home"
     android:textColor="@color/black"
-    android:textSize="40dp"
+    android:textSize="40sp"
     android:textStyle="italic"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintHorizontal_bias="0.496"
@@ -25,9 +25,9 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Thanks for ordering!"
+        android:text="@string/thanks_for_ordering"
         android:textColor="@color/black"
-        android:textSize="34dp"
+        android:textSize="34sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,9 +45,17 @@
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintVertical_bias="0.716"
-    app:srcCompat="@drawable/smiley1" />
+    app:srcCompat="@drawable/smiley1"
+        tools:ignore="ContentDescription" />
 
-
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next2"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="652dp"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

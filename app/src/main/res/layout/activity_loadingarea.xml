@@ -43,6 +43,7 @@
         tools:layout_editor_absoluteX="184dp"
         tools:layout_editor_absoluteY="409dp" />
 
+
     <Button
         android:id="@+id/button"
         android:layout_width="136dp"
@@ -50,8 +51,7 @@
         android:text="@string/st2"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="535dp" />
-
+        tools:layout_editor_absoluteY="537dp" />
 
     <TextView
         android:id="@+id/date"
