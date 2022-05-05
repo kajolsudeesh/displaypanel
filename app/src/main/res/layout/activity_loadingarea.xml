@@ -9,26 +9,30 @@
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/searchView"
-        android:layout_width="317dp"
-        android:layout_height="43dp"
+        android:layout_width="276dp"
+        android:layout_height="35dp"
         android:iconifiedByDefault="false"
         android:queryHint="@string/str6"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="298dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413"
+        tools:ignore="MissingConstraints" />
+
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="243dp"
         android:layout_height="81dp"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="108dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="Fresh to Home"
         android:textColor="@color/black"
         android:textSize="40dp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -39,53 +43,59 @@
         android:layout_height="57dp"
         android:minHeight="60dp"
         android:text=""
-        tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml"
-        tools:layout_editor_absoluteX="184dp"
-        tools:layout_editor_absoluteY="409dp" />
-
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606"
+        tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="136dp"
         android:layout_height="56dp"
         android:text="@string/st2"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="537dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.826"
+        tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/date"
-        android:layout_width="309dp"
-        android:layout_height="31dp"
-        android:text="@string/str3"
-        android:textSize="25sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="33dp" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="128dp"
-        android:layout_height="35dp"
+        android:layout_width="132dp"
+        android:layout_height="63dp"
         android:text="@string/st4"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="italic"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="415dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="131dp"
-        android:layout_height="43dp"
+        android:layout_width="139dp"
+        android:layout_height="61dp"
         android:text="@string/st5"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="italic"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="262dp"
-        tools:layout_editor_absoluteY="415dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,18 +18,12 @@ public class loadingarea extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loadingarea);
-        TextView textView=findViewById(R.id.date);
-        @SuppressLint("SimpleDateFormat") SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd G 'at' HH:mm:ss z");
-        String currentDataTime = sdf.format(new Date());
-        textView.setText(currentDataTime);
-
-
         setContentView(R.layout.activity_loadingarea);
         button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(loadingarea.this,loading_items .class);
+                Intent intent = new Intent(loadingarea.this,otp_verification.class);
                 startActivity(intent);
             }
         });

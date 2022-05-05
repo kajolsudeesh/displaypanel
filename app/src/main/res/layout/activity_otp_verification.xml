@@ -8,23 +8,22 @@
     tools:context=".otp_verification">
 
 
-
     <TextView
-            android:id="@+id/textView2"
-            android:layout_width="298dp"
-            android:layout_height="67dp"
-            android:text="Fresh To Home"
-            android:textColor="@color/black"
-            android:textSize="40dp"
-            android:textStyle="italic"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.108" />
+        android:id="@+id/textView2"
+        android:layout_width="298dp"
+        android:layout_height="67dp"
+        android:text="Fresh To Home"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.088" />
 
-        <Button
+    <Button
             android:id="@+id/button"
             android:layout_width="147dp"
             android:layout_height="58dp"
@@ -35,18 +34,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.646" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="140dp"
-            android:layout_height="54dp"
-            android:text="Open door"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.906"
-            tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editTextTextPersonName"
