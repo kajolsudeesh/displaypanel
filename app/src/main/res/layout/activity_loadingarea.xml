@@ -4,38 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/blueimg"
+    android:background="@drawable/img_9"
     tools:context=".loadingarea">
+
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/searchView"
-        android:layout_width="276dp"
-        android:layout_height="35dp"
+        android:layout_width="187dp"
+        android:layout_height="73dp"
         android:iconifiedByDefault="false"
         android:queryHint="@string/str6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintHorizontal_bias="0.424"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.413"
+        app:layout_constraintVertical_bias="0.357"
         tools:ignore="MissingConstraints" />
-
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="243dp"
-        android:layout_height="81dp"
-        android:layout_marginTop="108dp"
+        android:layout_width="312dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="52dp"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Fresh to Home"
+        android:text="Fresh To Home"
         android:textColor="@color/black"
-        android:textSize="40dp"
+        android:textSize="50dp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
+
 
     <Switch
         android:id="@+id/switch1"
@@ -53,22 +55,25 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="136dp"
-        android:layout_height="56dp"
+        android:layout_width="116dp"
+        android:layout_height="53dp"
+        android:backgroundTint="@color/black"
         android:text="@string/st2"
+        android:textColor="@color/white"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.826"
+        app:layout_constraintVertical_bias="0.823"
         tools:ignore="MissingConstraints" />
-
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="132dp"
         android:layout_height="63dp"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/st4"
         android:textColor="@color/black"
         android:textSize="24sp"
@@ -85,6 +90,7 @@
         android:id="@+id/textView3"
         android:layout_width="139dp"
         android:layout_height="61dp"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/st5"
         android:textColor="@color/black"
         android:textSize="24sp"

@@ -4,46 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/blueimg"
+    android:background="@drawable/img_9"
     tools:context=".enroute">
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="298dp"
-        android:layout_height="67dp"
+        android:layout_width="313dp"
+        android:layout_height="100dp"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="Fresh To Home"
         android:textColor="@color/black"
-        android:textSize="40dp"
+        android:textSize="50dp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintHorizontal_bias="0.663"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.121" />
+        app:layout_constraintVertical_bias="0.093" />
 
     <Button
         android:id="@+id/nxt"
         android:layout_width="151dp"
         android:layout_height="54dp"
+        android:backgroundTint="@color/black"
         android:text="Next"
+        android:textColor="@color/white"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.87" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="298dp"
-        android:layout_height="276dp"
+        android:layout_width="296dp"
+        android:layout_height="320dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.536"
+        app:layout_constraintVertical_bias="0.498"
         app:srcCompat="@drawable/gps"
         tools:ignore="MissingConstraints" />
 
